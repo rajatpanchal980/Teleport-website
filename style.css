@@ -2,6 +2,7 @@
     width: 175px;
 }
 
+/* fixxing navbar as fixed */
 .navbar {
     position: fixed !important;
     top: 0;
@@ -9,11 +10,10 @@
     z-index: 10000;
     width: 100%;
 
-
-
-
-
 }
+
+
+/* product-dropdown */
 
 .product-menu i {
     font-size: 20px;
@@ -55,6 +55,56 @@
     color: #ff4f7b;
 }
 
+/* service-dropdown */
+.services-menu i {
+    font-size: 20px;
+}
+
+.services-menu li:nth-child(1) i {
+    color: #8546f6;
+}
+
+.services-menu li:nth-child(2) i {
+    color: #f5a623;
+}
+
+/* resource-dropdown */
+.resources-menu p {
+    font-size: 14px;
+}
+
+.resources-menu {
+    font-size: 20px;
+}
+
+.resources-menu li:nth-child(1) i {
+    color: #8546f6;
+}
+
+.resources-menu li:nth-child(2) i {
+    color: #ff6447;
+}
+
+.resources-menu li:nth-child(3) i {
+    color: #8546f6;
+}
+
+.resources-menu li:nth-child(4) i {
+    color: #ff6447;
+}
+
+.resources-menu li:nth-child(5) i {
+    color: #f5a623;
+}
+
+.resources-menu li:nth-child(6) i {
+    color: #20c979;
+}
+
+.resources-menu li:nth-child(7) i {
+    color: #8546f6;
+}
+
 
 .navbar-nav {
     gap: 15px;
@@ -65,11 +115,7 @@
     font-size: 15px;
 }
 
-/* .navbar-buttons {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-} */
+
 
 #banner .container {
     max-width: 1170px;
@@ -78,21 +124,7 @@
 
 }
 
-/* .login-btn {
-    background: transparent;
-    border: none;
-    font-size: 15px;
-    padding: 10px 18px;
-}
 
-.start-btn {
-    background: #000;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-    font-size: 15px;
-    padding: 11px 20px;
-} */
 
 .button-gray {
 
