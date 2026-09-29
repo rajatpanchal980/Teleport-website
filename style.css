@@ -457,7 +457,7 @@
 
 }
 
-.contact-content button {
+.btn.contact-btn {
     background: #1b1b1d;
     color: #fff;
     border: none;
@@ -467,7 +467,7 @@
     font-weight: 600;
 }
 
-.contact-content button:hover {
+.btn.contact-btn:hover:hover {
     background: linear-gradient(90deg, #ff4f7b, #a63ee8, #3478e5);
 }
 
@@ -719,3 +719,131 @@
     }
 
 } */
+.contact-page {
+    padding: 140px 0 100px;
+    min-height: 100vh;
+    background: linear-gradient(135deg,
+            #f8f0ff,
+            #fff5f8,
+            #eef7ff);
+}
+
+.contact-left {
+    transform: translateY(-190px);
+}
+
+.contact-left h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.contact-line {
+    width: 85px;
+    height: 4px;
+    margin-left: 50px;
+    background: linear-gradient(90deg, #8546f6, #ff4f7b);
+
+}
+
+.contact-left p {
+    font-size: 22px;
+    margin-left: 50px;
+    line-height: 1.75;
+    color: #4f596b;
+    max-width: 430px;
+}
+
+.contact-form {
+    padding: 45px;
+    margin-top: 50px;
+    max-width: 80%;
+    margin-left: 59px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background:
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(135deg, #c8a0ff, #ffb0c0, #8bdcff) border-box;
+}
+
+
+.contact-form .form-label {
+    font-weight: 600;
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+    height: 62px;
+    border: 1px solid #d9dce2;
+    border-radius: 4px;
+    padding: 12px 18px;
+}
+
+.contact-form textarea.form-control {
+    height: auto;
+}
+
+.contact-submit {
+    background: linear-gradient(90deg, #8546f6, #ff4f7b, #ff5545);
+    color: white;
+    padding: 14px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.contact-submit:hover {
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* customer testinomials */
+.customers-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.customers-label {
+    font-size: 14px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    color: #8546f6;
+}
+
+.customers-section h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.25;
+    margin: 0;
+    max-width: 700px;
+}
+
+.testimonial-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+
+
+}
+
+.testimonial-user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-user h5 {
+    margin: 0 0 5px;
+}
+
+.testimonial-user span {
+    display: block;
+}
+
+.testimonial-card p {
+
+    max-width: 90%;
+    font-size: 20px;
+}
